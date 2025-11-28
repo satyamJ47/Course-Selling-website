@@ -6,7 +6,7 @@ courseRouter.post("/purchase",(req,res)=>{
 })
 
 courseRouter.get("/preview",(req,res)=>{
-    res.json({message:"Preview of courses"})
+    res.json({message:"Preview of courses nodemon"})
 })
 
 module.exports = courseRouter
